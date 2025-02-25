@@ -12,7 +12,14 @@
             Gym Exercises
         </div>
         <div class="header">
-            header
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="musclegroupglutes.html">Glutes Workout</a></li>
+                    <li><a href="legs.html">leg Workout</a></li>
+                    <li><a class="active" href="musclegroupshoulders.html">Shoulder Workout</a></li>
+                </ul>
+            </div>
         </div>
         <div class="exercises">
             Shoulders-<br>
@@ -51,6 +58,38 @@
         <div class="footer">
             Footer
         </div>
+        <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            border: 1px solid #e7e7e7;
+            
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            color: #666;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          li a:hover:not(.active) {
+            background-color: #ddd;
+          }
+          
+          li a.active {
+            color: white;
+            background-color: #04AA6D;
+          }
+          </style>
+  
 
     
 </body>
